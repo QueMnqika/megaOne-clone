@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+  
+#navbar{
+    width: 5% !important;
+    height: 100vh;
+}
+
+#toggler{
+    position: relative;
+    bottom: 320px;
+    left: 0;
+    width: 80%;
+}
