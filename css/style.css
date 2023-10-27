@@ -1,15 +1,43 @@
 *{
     box-sizing: border-box;
-}
-  
-#navbar{
-    width: 5% !important;
-    height: 100vh;
+    margin: 0 !important;
+    padding:0 !important;
 }
 
-#toggler{
+body{
+    background-image: url('https://i.postimg.cc/6qXv2RJZ/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#btn-link{
+    margin: 3% !important;
+    padding: 1% 3% !important;
+}
+
+#carousel img{
+    vertical-align: middle;
     position: relative;
-    bottom: 320px;
-    left: 0;
-    width: 80%;
+    left: 45%;
+    width: 250px;
+}
+
+#carousel a{
+    position: relative;
+    left: 40%;
+    margin: 3% !important;
+}
+
+section{
+    padding: 5% !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #lgscreen-btn{
+        display: none;
+        height: 100vh;
+    }
 }
